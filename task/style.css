@@ -1,0 +1,43 @@
+body {
+   background-color: rgb(221, 235, 235);
+}
+h2{
+   text-align: center;
+   color: #051f24;
+   padding: 20px;
+}
+.container,.ss {
+   display: flex;
+   justify-content: center;
+   height: 100vh;
+}
+.login{
+   width: 382px;
+   overflow: hidden;
+   padding: 80px;
+}
+ 
+#username{
+   text-align: center;
+   width: 300px;
+   height: 30px;
+   border: none;
+}
+ 
+#Password,#confirm{ 
+   text-align: center;
+   width: 300px;
+   height: 30px;
+   border: none;
+}
+#submit{
+   width: 300px;
+   height: 30px; 
+   border: none;
+   color: red;
+}
+.ss{
+   float: right;
+}
+
+ 
