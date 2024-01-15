@@ -23,7 +23,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                 //đổi tên file
                 $newFileName =$target_dir . hash('sha256',$FileName) . "." . $FileType;
                 // di chuyển file đến thư mục
-                if(move_uploaded_file($_FILES['upload']['tmp_name'],$target_dir)){
+                if(move_uploaded_file($_FILES['upload']['tmp_name'],$newFileName)){
                     echo "upload file thành công " . $newFileName;
                 }
                 else{
